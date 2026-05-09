@@ -17,6 +17,9 @@
         # typst
         # typstPackages.typsite
       ];
+      # shellHook = ''
+      #   alias deploy="scp -P 69 -r ./public/* 178.104.82.119:/var/www/pmeinhold/"
+      # '';
     };
   };
 }
